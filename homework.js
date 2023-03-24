@@ -62,15 +62,13 @@ console.log(Y)
 */
 
 /*5.Даны целые положительные числа N и K. Найти сумму
-let N = 5
+let N = 3
 let K = 2
-let X = 1
 let Y = 0
-let i = 0
+let i = 1
 
-while (i < N) {
-    Y = Y + (X**K)
-    X++
+while (i < N+1) {
+    Y += (i**K)
     i++
 }
 
